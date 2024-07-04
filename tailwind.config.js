@@ -23,10 +23,21 @@ module.exports = {
         marquee: {
           '0%': { transform: 'translateX(100%)' },
           '100%': { transform: 'translateX(-200%)' },
-        }
+        },
+        slidein: {
+          from: {
+            opacity: "0",
+            transform: "translateY(-10px)",
+          },
+          to: {
+            opacity: "1",
+            transform: "translateY(0)",
+          },
+        },
       },
       animation: {
         marquee: 'marquee 10s linear infinite',
+        slidein: "slidein 1s ease var(--slidein-delay, 0) forwards",
       },
     },
   },
