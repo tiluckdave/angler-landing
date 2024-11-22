@@ -28,7 +28,7 @@ function CTAButton({ children, onClick, bck }) {
     if (bck === 'light') {
         return (<button
             onClick={onClick}
-            className={`transition-all ease-in-out duration-500 bg-gradient-to-r  from-blue-800 to-sky-700 hover:shadow-lg text-lg font-medium text-white bg-size-200 bg-pos-0 hover:bg-pos-100 py-2.5 px-10 rounded-full`}
+            className={`transition-all ease-in-out duration-500 bg-gradient-to-r  from-red-500 to-yellow-500 hover:shadow-lg text-lg font-medium text-white bg-size-200 bg-pos-0 hover:bg-pos-100 py-2.5 px-10 rounded-full`}
         >
             {children}
         </button>
